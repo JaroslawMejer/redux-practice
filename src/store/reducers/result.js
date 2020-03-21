@@ -1,0 +1,29 @@
+import * as actionTypes from '../actions';
+
+const initialState = {
+    results: []
+};
+
+const reducer = (state = initialState, action) =>{
+
+    switch (action.type) {
+        case actionTypes.STORE_RESULT:
+            return {
+                ...state,
+                results: state.results.concat({id: new Date(), value: action.result})
+            };
+        case actionTypes.DELETE_RESULT:
+
+            const filteredResults = state.results.filter(el => el.id !== action.resultElId);
+            console.log('Test')
+            console.log(filteredResults)
+            return {
+                ...state,
+                results: filteredResults
+            }
+    }
+
+    return state
+};
+
+export default reducer;
