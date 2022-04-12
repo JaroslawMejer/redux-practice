@@ -6681,6 +6681,11 @@ reduce-function-call@^1.0.1:
   dependencies:
     balanced-match "^1.0.0"
 
+redux-thunk@^2.3.0:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/redux-thunk/-/redux-thunk-2.4.1.tgz#0dd8042cf47868f4b29699941de03c9301a75714"
+  integrity sha512-OOYGNY5Jy2TWvTL1KgAlVy6dcx3siPJ1wTq741EPyUKfn6W6nChdICjZwCd0p8AZBs5kWpZlbkXW2nE/zjUa+Q==
+
 redux@^4.0.5:
   version "4.0.5"
   resolved "https://registry.yarnpkg.com/redux/-/redux-4.0.5.tgz#4db5de5816e17891de8a80c424232d06f051d93f"
@@ -8017,9 +8022,9 @@ uri-js@^4.2.2:
     punycode "^2.1.0"
 
 urijs@^1.16.1:
-  version "1.19.2"
-  resolved "https://registry.yarnpkg.com/urijs/-/urijs-1.19.2.tgz#f9be09f00c4c5134b7cb3cf475c1dd394526265a"
-  integrity sha512-s/UIq9ap4JPZ7H1EB5ULo/aOUbWqfDi7FKzMC2Nz+0Si8GiT1rIEaprt8hy3Vy2Ex2aJPpOQv4P4DuOZ+K1c6w==
+  version "1.19.11"
+  resolved "https://registry.yarnpkg.com/urijs/-/urijs-1.19.11.tgz#204b0d6b605ae80bea54bea39280cdb7c9f923cc"
+  integrity sha512-HXgFDgDommxn5/bIv0cnQZsPhHDA90NPHD6+c/v21U5+Sx5hoP8+dP9IZXBU1gIfvdRfhG8cel9QNPeionfcCQ==
 
 urix@^0.1.0:
   version "0.1.0"
